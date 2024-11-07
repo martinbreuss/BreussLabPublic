@@ -22,3 +22,13 @@ It should take less than 10 minutes to build the environment.
 
     git clone --recursive https://github.com/martinbreuss/BreussLabPublic/P3_ISPCR
 
+## Usage
+
+### 1. This is the command structure to run CREPE:
+
+    python CREPE_v1.0.py input.csv ref_genome.fa output_directory proj_id
+
+### 2. This is an example command:
+
+    python CREPE_v1.0.py clinvar_10.csv hg38.fa test_crepe test_crepe10
+
