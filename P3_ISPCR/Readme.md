@@ -12,9 +12,13 @@ CREPE runs efficiently on local machines, no HPC is needed. Although, you can ru
 
 CREPE runs with few dependencies and a simple conda environment.
 
-To begin, download the env.yml file and run the following command:
+### 1. To begin, download the env.yml file and run the following command:
 
     conda env create --name crepe --file=env.yml
 
 It should take less than 10 minutes to build the environment.
+
+### 2. Git clone to obtain resources directory
+
+    git clone --recursive https://github.com/martinbreuss/BreussLabPublic/P3_ISPCR
 
