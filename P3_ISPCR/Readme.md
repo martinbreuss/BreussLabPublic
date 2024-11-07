@@ -1,4 +1,4 @@
-# CREPE (CreatePrimersandEvalulate)
+# CREPE (CREatePrimersandEvalulate)
 
 ## Overview
 
