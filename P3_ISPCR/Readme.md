@@ -1,4 +1,4 @@
-# CREPE (<ins>CREatePrimersandEvalulate)
+# CREPE (CREatePrimersandEvalulate)
 
 ## Overview
 
