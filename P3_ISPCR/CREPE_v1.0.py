@@ -3,7 +3,7 @@
 """
 Created on Fri August 2 11:17:02 2024
 
-@authors: Jon Pitsch and Martin Breuss
+@authors: Jonathan Pitsch and Martin Breuss
 """
 
 import pandas as pd
