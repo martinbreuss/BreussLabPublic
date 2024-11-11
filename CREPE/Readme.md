@@ -1,4 +1,4 @@
-# CREPE (CREatePrimersandEvalulate)
+# CREPE (CREate Primers and Evalulate)
 
 ## Overview
 
