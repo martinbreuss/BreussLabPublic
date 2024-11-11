@@ -20,7 +20,7 @@ It should take less than 10 minutes to build the environment.
 
 ### 2. Git clone to obtain resources directory
 
-    git clone --recursive https://github.com/martinbreuss/BreussLabPublic/P3_ISPCR
+    git clone --recursive https://github.com/martinbreuss/BreussLabPublic/CREPE
 
 ## Usage
 
