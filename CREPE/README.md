@@ -14,13 +14,13 @@ CREPE runs with few dependencies and a simple conda environment.
 
 ### 1. To begin, download the env.yml file and run the following command:
 
-    conda env create --name crepe --file=env.yml
+    conda env create --name crepe --file=env.yaml
 
 It should take less than 10 minutes to build the environment.
 
 ### 2. Git clone to obtain resources directory
 
-    git clone --recursive https://github.com/martinbreuss/BreussLabPublic/CREPE
+    git clone -b main https://github.com/martinbreuss/BreussLabPublic
 
 ## Usage
 
