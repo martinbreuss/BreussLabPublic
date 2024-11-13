@@ -42,5 +42,5 @@ It should take less than 10 minutes to build the environment.
 
 ### 2. This is an example command:
 
-    python CREPE_v1.0.py clinvar_10.csv hg38.fa test_crepe test_crepe10
+    python CREPE_v1.0.py clinvar10_demo.csv hg38.fa test_crepe test_crepe10
 
