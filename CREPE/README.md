@@ -36,6 +36,8 @@ It should take less than 10 minutes to build the environment.
 
 ## Usage
 
+The input CSV file can contain as many columns as you like. However the chromosome column must be labeled CHROM, the position must be POS, and the project ID must be PROJ. This is shown in the clinvar10_demo.csv file.
+
 ### 1. This is the command structure to run CREPE:
 
     python CREPE_v1.0.py input.csv ref_genome.fa output_directory proj_id
@@ -44,3 +46,6 @@ It should take less than 10 minutes to build the environment.
 
     python CREPE_v1.0.py clinvar10_demo.csv hg38.fa test_crepe test_crepe10
 
+## Updates
+
+The Python script will be updated to improve performance and allow the user to prioritize amplicons different than the 200bp size we've chosen. Please reach out to Jon (jonathan[dot]pitsch@cuanschutz[dot]edu) if you have any issues using CREPE. 
