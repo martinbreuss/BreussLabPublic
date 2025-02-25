@@ -30,9 +30,11 @@ If you have an issue creating the environment from the env.yaml file, then use t
 
 It should take less than 10 minutes to build the environment.
 
-### 2. Git clone to obtain resources directory
+### 2. Git clone to obtain the other files or download and extract the tar file
 
-    git clone -b main https://github.com/martinbreuss/BreussLabPublic
+    1. git clone -b main https://github.com/martinbreuss/BreussLabPublic
+
+    2. tar -xvzf crepe_download.tar.gz
 
 ### 3. Gunzip all_repeats.bed file
 
