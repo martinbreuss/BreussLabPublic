@@ -52,6 +52,10 @@ The input CSV file can contain as many columns as you like. However the chromoso
 
     python CREPE_v1.0.py clinvar10_demo.csv hg38.fa test_crepe test_crepe10
 
+The final output file with the list of primers starts with the prefix: FINAL_OUTPUT_FILE... We are working to clean up the output intermediary files. (02/25/2025)
+
 ## Updates
 
 The Python script will be updated to improve performance and allow the user to prioritize amplicons different than the 200bp size we've chosen. Please reach out to Jon (jonathan[dot]pitsch@cuanschutz[dot]edu) if you have any issues using CREPE. 
+
+
