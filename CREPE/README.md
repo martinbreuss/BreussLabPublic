@@ -10,7 +10,7 @@ CREPE runs efficiently on local machines, no HPC is needed. Although, you can ru
 
 ## Installation
 
-CREPE runs with few dependencies and a simple conda environment.
+CREPE runs with few dependencies and a simple conda environment. The simplest install method might be to download and extract the tarball. However, cloning this repository should also work. In any case, the following instructions will help you prepare the files and environment needed for CREPE to run.
 
 ### 1. To begin, download the env.yaml file and run the following command:
 
