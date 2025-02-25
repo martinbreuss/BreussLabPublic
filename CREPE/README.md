@@ -34,6 +34,10 @@ It should take less than 10 minutes to build the environment.
 
     git clone -b main https://github.com/martinbreuss/BreussLabPublic
 
+### 3. Gunzip all_repeats.bed file
+
+    gunzip all_repeats.b38_new.bed.gz
+
 ## Usage
 
 The input CSV file can contain as many columns as you like. However the chromosome column must be labeled CHROM, the position must be POS, and the project ID must be PROJ. This is shown in the clinvar10_demo.csv file.
