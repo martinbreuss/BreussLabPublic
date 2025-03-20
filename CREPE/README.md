@@ -12,7 +12,15 @@ CREPE runs efficiently on local machines, no HPC is needed. Although, you can ru
 
 CREPE runs with few dependencies and a simple conda environment. The simplest install method might be to download and extract the tarball. However, cloning this repository should also work. In any case, the following instructions will help you prepare the files and environment needed for CREPE to run.
 
-### 1. To begin, download the env.yaml file and run the following command:
+### 1. To begin, download and extract the tar file:
+
+    tar -xvzf crepe_download.tar.gz
+
+### 2. Gunzip all_repeats.bed file
+
+    gunzip all_repeats.b38_new.bed.gz
+
+### 3. Build the CREPE anaconda environment by running the following command:
 
     conda env create --name crepe --file=env.yaml
 
@@ -30,15 +38,10 @@ If you have an issue creating the environment from the env.yaml file, then use t
 
 It should take less than 10 minutes to build the environment.
 
-### 2. Git clone to obtain the other files or download and extract the tar file
+### 4. If you have an issue with the tar file, Git clone this directory:
 
     1. git clone -b main https://github.com/martinbreuss/BreussLabPublic
 
-    2. tar -xvzf crepe_download.tar.gz
-
-### 3. Gunzip all_repeats.bed file
-
-    gunzip all_repeats.b38_new.bed.gz
 
 ## Usage
 
@@ -46,11 +49,11 @@ The input CSV file can contain as many columns as you like. However the chromoso
 
 ### 1. This is the command structure to run CREPE:
 
-    python CREPE_v1.0.py input.csv ref_genome.fa output_directory proj_id
+    python CREPE_v1.02.py input.csv ref_genome.fa output_directory proj_id
 
 ### 2. This is an example command:
 
-    python CREPE_v1.0.py clinvar10_demo.csv hg38.fa test_crepe test_crepe10
+    python CREPE_v1.02.py clinvar10_demo.csv hg38.fa test_crepe test_crepe10
 
 The final output file with the list of primers starts with the prefix: FINAL_OUTPUT_FILE... We are working to clean up the output intermediary files. (02/25/2025)
 
