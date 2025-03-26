@@ -60,7 +60,10 @@ The final output file with the list of primers is called: FINAL_OUTPUT_FILE_proj
 
 The final output file with all identified off-targets that passed filtering is called: ALL_OFFTARGETS_FOUND_for_projID (ALL_OFFTARGETS_FOUND_for_test_crepe10). Note that this file also contains the on-target primer pair. It's easiest to filter this file to find the off-targets found for specific primers instead of reading the file as a whole.
 
-Below is a sample output from the provided demo file
+Below is a sample output from the provided demo file:
+
+
+<img width="1300" alt="Screen Shot 2025-03-26 at 2 09 25 PM" src="https://github.com/user-attachments/assets/f622053c-31a8-4913-804f-5e125dbfa4a3" />
 
 
 
