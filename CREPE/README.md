@@ -56,7 +56,9 @@ The input CSV file can contain as many columns as you like. However, the chromos
 
     python CREPE_v1.02.py clinvar10_demo.csv hg38.fa test_crepe test_crepe10
 
-The final output file with the list of primers starts with the prefix: FINAL_OUTPUT_FILE_projID. We are working to clean up the output intermediary files. (02/25/2025)
+The final output file with the list of primers is called: FINAL_OUTPUT_FILE_projID (FINAL_OUTPUT_FILE_test_crepe10). We are working to clean up the output intermediary files. (03/26/2025)
+
+The final output file with all identified off-targets that passed filtering is called: ALL_OFFTARGETS_FOUND_for_projID (ALL_OFFTARGETS_FOUND_for_test_crepe10). Note that this file also contains the on-target primer pair. It's easiest to filter this file to find the off-targets found for specific primers instead of reading the file as a whole.
 
 Below is a sample output from the provided demo file
 
