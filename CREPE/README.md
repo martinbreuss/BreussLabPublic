@@ -21,11 +21,7 @@ CREPE runs with few dependencies and a simple conda environment. The suggested i
 
     tar -xvzf crepe_download.tar.gz
 
-### 2. Gunzip all_repeats.bed file
-
-    gunzip all_repeats.b38_new.bed.gz
-
-### 3. Build the CREPE anaconda environment by running the following command:
+### 2. Build the CREPE anaconda environment by running the following command:
 
     conda env create --name crepe --file=env.yaml
 
@@ -43,7 +39,7 @@ If you have an issue creating the environment from the env.yaml file, then use t
 
 It should take less than 10 minutes to build the environment.
 
-### 4. If you have an issue with the tar file, Git clone this directory:
+### 3. If you have an issue with the tar file, Git clone this directory:
 
     1. git clone -b main https://github.com/martinbreuss/BreussLabPublic
 
