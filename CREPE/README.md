@@ -23,7 +23,7 @@ CREPE runs with few dependencies and a simple conda environment. The suggested i
 
 ### 2. Build the CREPE anaconda environment by running the following command:
 
-    conda env create --name crepe --file=env.yaml
+    conda env create --name crepe --file=env.yml
 
 If you have an issue creating the environment from the env.yaml file, then use the following commands to create your environment:
 
