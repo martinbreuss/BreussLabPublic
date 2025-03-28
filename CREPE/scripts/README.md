@@ -12,4 +12,6 @@ This command was used to write the background data into a BAM file:
 
     samtools view -h -b -L NoOff.bed -U NoOff_background.bam -@ 4 ClinVar1-96_S41_L003.recal.bam
 
+remove_decoy.py was used to remove background sites aligned to decoy contigs in the reference genome (GRCh38.p14).
 
+depth_calc.py filters out background sites with 0 read depth.
