@@ -39,7 +39,7 @@ If you have an issue creating the environment from the env.yaml file, then use t
 
 It should take less than 10 minutes to build the environment.
 
-### 3. If you have an issue with the tar file, Git clone this directory:
+### 3. Use the following command to Git clone the Breuss Lab directory:
 
     1. git clone -b main https://github.com/martinbreuss/BreussLabPublic
 
