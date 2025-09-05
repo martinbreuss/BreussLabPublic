@@ -19,7 +19,7 @@ CREPE runs with few dependencies and a simple conda environment. The suggested i
 
 ### 1. To begin, download and extract the tar file:
 
-    tar -xvzf crepe_download.tar.gz
+    tar -xvzf CREPE_v1.02_download.tar.gz
 
 ### 2. Build the CREPE anaconda environment by running the following command:
 
