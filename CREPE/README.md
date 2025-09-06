@@ -65,6 +65,30 @@ Below is a sample output from the provided demo file:
 
 <img width="1299" alt="Screen Shot 2025-03-26 at 2 10 43 PM" src="https://github.com/user-attachments/assets/35fcae38-5000-4265-aa88-9377df656056" />
 
+Legend for the output columns:
+
+|Column            |Explanation                                                                                        |
+|------------------|---------------------------------------------------------------------------------------------------|
+|**CHROM** | chromosome of target site|
+|**POS**|	                    position of target site|
+**PROJ**|	                project name used as output file prefix
+**variant_id**	 |           unique variant ID (PROJ_CHROM_POS)
+**primer3**	 |               [Boolean] (True if a viable primer pair was created by Primer3)
+**isPcr**	  |              [Boolean] (True if the primer pair was accepted by ISPCR)
+**primer_name**	   |        variant ID that describes primer type, (e.g. clinvar_1_944041_TAS-opt)
+**TAS-opt**	     |           [Boolean] (True if primer pair is a TAS-opt pair)
+**forward_name**	 |       name of forward primer for target site (clinvar_1_944041_TAS-opt_F)
+**forward_primer**	   |     nucleotide sequence for the forward primer
+**forward_tm**	 |           melting temperature of the forward primer
+**reverse_name**	 |       name of reverse primer for target site (clinvar_1_944041_TAS-opt_F)
+**reverse_primer**	 |       nucleotide sequence for the reverse primer
+**reverse_tm**	   |         melting temperature of the reverse primer
+**amplicon_start**	  |      start position of amplicon
+**amplicon_end**	 |       end position of amplicon
+**amplicon_size**	 |       size of amplicon
+**primer_count**	 |       number of off-targets in addition to primer pair, e.g. 1=no off-targets, 3=two off-targets
+**concerning_off_targets**	|[Boolean] (True if primer pair has a high quality off-target)
+
 
 
 ## Updates
