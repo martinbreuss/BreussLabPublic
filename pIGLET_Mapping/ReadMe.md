@@ -68,3 +68,8 @@ To find the insertion point, the pipeline "baits" reads overlapping the transgen
 ### 6. Final Analysis
 The insertion site is identified by viewing the output:
 Clusters of these specific reads indicate the precise chromosomal location where the transgene incorporated into the host DNA.
+
+<p align="center">
+  <img width="818" height="416" alt="Screenshot 2026-05-06 at 11 03 48 AM" src="https://github.com/user-attachments/assets/dcb2a45d-bd3d-41a4-b3f8-05c7444170e9" />
+</p>
+
