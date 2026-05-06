@@ -4,6 +4,40 @@
 ## Pipeline Logic: Transgene Integration Site Mapping
 
 This pipeline identifies the exact genomic coordinates of transgene insertions by isolating chimeric reads—those that contain both transgene and host genomic DNA.
+
+## Overview
+
+```
+POD5 Files
+     │
+     └──► Dorado Basecaller (raw signal → DNA sequences)
+               │
+               Raw FASTQ/BAM
+               │
+               ├──► Align to GRCz11 (full genome BAM)
+               │
+               └──► Align to transgene FASTA
+                         │
+                         └──► mpileup at transgene ends
+                                   │
+                                   └──► Extract read names at transgene ends
+                                             │
+                                             └──► Pull those reads from full FASTQ
+                                                       │
+                                                       └──► Re-align to full genome
+                                                                 │
+                                                                 └──► Insertion site(s)
+```
+
+---
+
+## Requirements
+
+- `dorado` v1.2.0 — long read aligner/basecaller
+- `samtools` v1.6 — BAM manipulation
+- `seqtk` v1.2 — FASTQ subsetting
+
+---
  
 ## 1. Basecalling (The Entry Point)
 The pipeline begins with **Dorado**, Oxford Nanopore's high-performance basecaller. This step transforms raw signal data into readable DNA sequences.
