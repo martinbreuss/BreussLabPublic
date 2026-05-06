@@ -33,9 +33,9 @@ POD5 Files
 
 ## Requirements
 
-- `dorado` v1.2.0 — long read aligner/basecaller
-- `samtools` v1.6 — BAM manipulation
-- `seqtk` v1.2 — FASTQ subsetting
+- `dorado` — long read aligner/basecaller
+- `samtools` — BAM manipulation
+- `seqtk` — FASTQ subsetting
 
 ---
  
