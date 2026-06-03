@@ -39,7 +39,7 @@ cat "$fastq_dir"/*.fastq > "$full_fastq"
 
 #sort and index bam file
 #Program: samtools (Tools for alignments in the SAM format)
-#Version: 1.6 (using htslib 1.6)
+
 samtools sort -@ 32 "$full_bam" > "$sorted_full_bam"
 
 samtools index  "$sorted_full_bam"
