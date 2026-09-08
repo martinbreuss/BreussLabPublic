@@ -14,7 +14,7 @@ POD5 Files
                │
                Raw FASTQ/BAM
                │
-               ├──► Align to GRCz11 or GRCz12tu(full genome BAM)
+               ├──► Align to GRCz11 or GRCz12tu (full genome BAM)
                │
                └──► Align to transgene FASTA
                          │
