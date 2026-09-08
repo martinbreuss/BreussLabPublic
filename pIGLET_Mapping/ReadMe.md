@@ -14,7 +14,7 @@ POD5 Files
                │
                Raw FASTQ/BAM
                │
-               ├──► Align to GRCz11 (full genome BAM)
+               ├──► Align to GRCz11 or GRCz12tu(full genome BAM)
                │
                └──► Align to transgene FASTA
                          │
@@ -48,7 +48,7 @@ The pipeline begins with **Dorado**, Oxford Nanopore's high-performance basecall
 
 ### 2. Dual Reference Alignment
 The raw Nanopore FASTQ reads are aligned to two targets using `dorado aligner`:
-*   **Host Genome:** Standard alignment to the Zebrafish reference (`GRCz11`).
+*   **Host Genome:** Standard alignment to the Zebrafish reference (`GRCz11 or GRCz12tu`).
 *   **Transgene Sequence:** Targeted alignment to the `Transgene` insert sequence.
 
 ### 3. Isolating Reads at Transgene boundary with Mpileup
